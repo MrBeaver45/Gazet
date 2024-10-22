@@ -1,6 +1,6 @@
 body {
     font-family: 'EB Garamond', serif;
-    background-color: #e8e0d2; /* Более тёплый фон */
+    background-color: #e8e0d2; 
     margin: 0;
     padding: 0;
 }
@@ -10,8 +10,8 @@ body {
     margin: 20px auto;
     padding: 20px;
     background-color: #fff;
-    border: 1px solid #b0a89f; /* Более тёплый цвет рамки */
-    box-shadow: 0 0 15px rgba(0, 0, 0, 0.15); /* Мягкая тень */
+    border: 1px solid #b0a89f; 
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.15); 
     background-image: url('vintage-paper-texture.jpg');
     background-size: cover;
 }
@@ -24,7 +24,7 @@ header {
 .title {
     font-family: 'Libre Baskerville', serif;
     font-size: 48px;
-    color: #3e3e3e; /* Тёмно-серый для лучшего контраста */
+    color: #3e3e3e;
     margin: 0;
 }
 
@@ -36,7 +36,7 @@ header {
 }
 
 .week-input, .habit-input {
-    border: 1px solid #b0a89f; /* Цвет рамки для полей ввода */
+    border: 1px solid #b0a89f; 
     padding: 5px;
     width: 150px;
 }
@@ -49,7 +49,7 @@ header {
 
 .to-do h2, .to-do h3 {
     font-family: 'Libre Baskerville', serif;
-    color: #4f4f4f; /* Тёмно-серый для заголовков */
+    color: #4f4f4f; 
 }
 
 .to-do ul {
@@ -61,10 +61,10 @@ header {
     width: 90%;
     border: none;
     background: transparent;
-    border-bottom: 1px solid #b0a89f; /* Цвет для нижней рамки текстовой области */
+    border-bottom: 1px solid #b0a89f; 
     font-size: 14px;
     margin-left: 10px;
-    color: #3e3e3e; /* Тёмно-серый текст */
+    color: #3e3e3e; 
 }
 
 .to-do input[type="checkbox"] {
@@ -79,17 +79,17 @@ header {
 }
 
 .day {
-    background-color: rgba(255, 255, 255, 0.85); /* Более мягкий белый фон */
+    background-color: rgba(255, 255, 255, 0.85); 
     padding: 10px;
-    border: 1px solid #b0a89f; /* Цвет рамки для блоков дней */
-    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1); /* Мягкая тень */
+    border: 1px solid #b0a89f; 
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1); 
 }
 
 .day h3 {
     font-family: 'Libre Baskerville', serif;
     font-size: 18px;
     margin: 0 0 10px 0;
-    color: #4f4f4f; /* Тёмно-серый заголовок для дня */
+    color: #4f4f4f; 
 }
 
 textarea {
@@ -99,5 +99,5 @@ textarea {
     background: transparent;
     resize: none;
     font-size: 14px;
-    color: #3e3e3e; /* Тёмно-серый текст */
+    color: #3e3e3e; 
 }
