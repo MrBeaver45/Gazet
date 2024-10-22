@@ -1,0 +1,103 @@
+body {
+    font-family: 'EB Garamond', serif;
+    background-color: #e8e0d2; /* Более тёплый фон */
+    margin: 0;
+    padding: 0;
+}
+
+.planner-container {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #b0a89f; /* Более тёплый цвет рамки */
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.15); /* Мягкая тень */
+    background-image: url('vintage-paper-texture.jpg');
+    background-size: cover;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.title {
+    font-family: 'Libre Baskerville', serif;
+    font-size: 48px;
+    color: #3e3e3e; /* Тёмно-серый для лучшего контраста */
+    margin: 0;
+}
+
+.week-details {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.week-input, .habit-input {
+    border: 1px solid #b0a89f; /* Цвет рамки для полей ввода */
+    padding: 5px;
+    width: 150px;
+}
+
+.grid-layout {
+    display: grid;
+    grid-template-columns: 2fr 5fr;
+    grid-gap: 20px;
+}
+
+.to-do h2, .to-do h3 {
+    font-family: 'Libre Baskerville', serif;
+    color: #4f4f4f; /* Тёмно-серый для заголовков */
+}
+
+.to-do ul {
+    list-style: none;
+    padding: 0;
+}
+
+.to-do textarea {
+    width: 90%;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid #b0a89f; /* Цвет для нижней рамки текстовой области */
+    font-size: 14px;
+    margin-left: 10px;
+    color: #3e3e3e; /* Тёмно-серый текст */
+}
+
+.to-do input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+.days {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 200px);
+    grid-gap: 10px;
+}
+
+.day {
+    background-color: rgba(255, 255, 255, 0.85); /* Более мягкий белый фон */
+    padding: 10px;
+    border: 1px solid #b0a89f; /* Цвет рамки для блоков дней */
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1); /* Мягкая тень */
+}
+
+.day h3 {
+    font-family: 'Libre Baskerville', serif;
+    font-size: 18px;
+    margin: 0 0 10px 0;
+    color: #4f4f4f; /* Тёмно-серый заголовок для дня */
+}
+
+textarea {
+    width: 100%;
+    height: 70%;
+    border: none;
+    background: transparent;
+    resize: none;
+    font-size: 14px;
+    color: #3e3e3e; /* Тёмно-серый текст */
+}
